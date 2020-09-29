@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5eff5;
+  font-family: "Karla", sans-serif;
+  color: #98a6bd;
+  font-size: 16px; }
+
+main {
+  margin: 162px 32px; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+h1 {
+  color: #2ab2af;
+  font-size: 145%; }
+
+h2 {
+  font-size: 110%;
+  color: #e5eff5; }
+
+#container {
+  max-width: 634px;
+  margin: auto;
+  box-shadow: 0 8px 32px -13px #98a6bd;
+  border-radius: 10px; }
+
+.top-container {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+  padding: 26px 40px 21px; }
+  .top-container .thirtyday {
+    color: #c0df34;
+    margin-top: 26px;
+    font-weight: 700;
+    line-height: 16px;
+    font-size: 18px; }
+  .top-container p {
+    font-size: 16px;
+    line-height: 25px; }
+
+.left-container {
+  background-color: #2ab2af;
+  color: #e5eff5;
+  border-bottom-left-radius: 5px;
+  padding: 27px 40px 21px; }
+  .left-container .dollars {
+    font-size: 200%;
+    font-weight: 400;
+    color: white; }
+  .left-container .permonth {
+    position: relative;
+    left: 11px;
+    top: -5px;
+    font-size: 93%;
+    opacity: 0.6; }
+  .left-container .fullaccess {
+    margin-top: -7px;
+    opacity: .8;
+    font-size: 15px; }
+
+button {
+  width: 100%;
+  font-size: 100%;
+  font-family: inherit;
+  padding: 15px 35px;
+  margin: 17px 0;
+  background-color: #c0df34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 8px 32px -18px black; }
+
+.right-container {
+  background-color: #2ab2af;
+  opacity: .8;
+  color: #e5eff5;
+  border-bottom-right-radius: 5px;
+  padding: 27px 40px; }
+  .right-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    opacity: 0.7;
+    line-height: 21px;
+    font-size: 14px; }
+
+.row {
+  display: flex;
+  flex-direction: row; }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  main {
+    margin: 72px 32px; }
+
+  h1 {
+    font-size: 122%; }
+
+  .top-container {
+    padding: 14px 24px; }
+    .top-container .thirtyday {
+      color: #c0df34;
+      margin-top: 26px;
+      font-weight: 700;
+      line-height: 20px;
+      font-size: 15px; }
+    .top-container p {
+      font-size: 14px;
+      line-height: 27px; }
+
+  h2 {
+    font-size: 110%; }
+
+  .row {
+    display: block; }
+
+  [class*="col-"] {
+    width: 100%; }
+
+  .right-container {
+    border-bottom-left-radius: 5px;
+    padding: 14px 24px 25px; }
+    .right-container ul {
+      font-size: 14px; }
+
+  .left-container {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 11px 24px; }
+    .left-container .dollars {
+      font-size: 200%;
+      font-weight: 400;
+      color: white; }
+    .left-container .permonth {
+      position: relative;
+      left: 11px;
+      top: -5px;
+      font-size: 93%;
+      opacity: 0.6; }
+    .left-container .fullaccess {
+      font-size: 15px; } }
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+  .attribution a {
+    color: #3e52a3; }
+
